@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment"
+    android:background="@color/colorAccent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Transaksi"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Dasi polcadot                   =  45.000"
+            android:textSize="25dp"
+            android:layout_marginTop="50dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sepatu Vans On Pria       =  95.000"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pandu Tshirt                     =  95.000"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Celana jeans Grey           =  125.000"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Dompet Koin                     = 15.000"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="________________________________"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Total                                   = 375.000 "
+            android:textSize="25dp"
+            android:layout_marginTop="25dp"/>
+    </LinearLayout>
+
+
+</FrameLayout>
